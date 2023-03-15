@@ -1,0 +1,7 @@
+lista_comandos.append(comando.ComandoAtaque('Tajo veloz', 10, descripcion='Ataque que hace mas dano que el ataque basico'))
+lista_comandos.append(comando.ComandoAtaque('Filo vulnerable', 8, desproteccion=True,descripcion='Ataque que desprotege al enemigo'))
+lista_comandos.append(comando.ComandoAtaque('Estocada multiple', 12, area=True, descripcion='Ataque que hace dano en area'))
+lista_comandos.append(comando.ComandoAtaque('Corte critico', 100, descripcion='Ataque que hace mas dano a un objetivo'))
+lista_comandos.append(comando.ComandoCura('Espiritu de batalla', buff_ataque=1, area=True,descripcion='Aumento de dano a todos los jugadores'))
+lista_comandos.append(comando.ComandoTransformacion('Promocion de clase: Cambio a Guardian', 'Guardian',descripcion='Cambio a clase guardian en la que recibiras menos dano (ademas de curarte) cuando te ataquen pero perderas vida al atacar'))
+lista_comandos.append(comando.ComandoTransformacion('Promocion de clase: Cambio a Mago', 'Mago',descripcion='Cambio a clase mago, con la con cada ataque aumentaras el dano, ademas de curarte el dano que hagas e ignoraras cambios de estado'))

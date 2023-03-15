@@ -1,0 +1,7 @@
+lista_comandos.append(comando.ComandoAtaque('Disparo certero', 10, descripcion='Ataque a un enemigo'))
+lista_comandos.append(comando.ComandoCura('Auxilio limpiaestados', limpia_estados=True,descripcion='Curacion que limpia el estado del personaje'))
+lista_comandos.append(comando.ComandoCura('Barrera defensiva', escudo=1, descripcion='Aplicacion de un escudo al personaje'))
+lista_comandos.append(comando.ComandoCura('Cura rapida', 150, descripcion='Cura grande a un solo personaje'))
+lista_comandos.append(comando.ComandoCura('Tratamiento grupal', 100, area=True, descripcion='Cura grupal a todos los personajes'))
+lista_comandos.append(comando.ComandoTransformacion('Promocion de clase: Cambio a Taumaturgo', 'Taumaturgo',descripcion='Cambio a clase taumaturgo en la que aguantaras el dano como un tanque y te curaras como un sanador, y todos los ataques aplicaran desproteccion, derribar y aturdir en un mismo turno'))
+lista_comandos.append(comando.ComandoTransformacion('Promocion de clase: Cambio a Mago', 'Mago',descripcion='Cambio a clase mago, con la con cada ataque aumentaras el dano, ademas de curarte el daño que hagas e ignoraras cambios de estado'))

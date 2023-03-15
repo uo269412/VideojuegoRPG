@@ -1,0 +1,7 @@
+lista_comandos.append(comando.ComandoAtaque('Golpe egida', 6, descripcion='Ataque a un enemigo'))
+lista_comandos.append(comando.ComandoAtaque('Demolicion', 2, derribar=True, descripcion='Ataque a un enemigo que derriba'))
+lista_comandos.append(comando.ComandoAtaque('Lanzamiento de escudo', 3, area=True, aturdir=True,descripcion='Ataque en area a todos los enemigos que aturde'))
+lista_comandos.append(comando.ComandoCura('Postura defensiva', buff_defensa=2,descripcion='Aumento de defensa a todos los jugadores'))
+lista_comandos.append(comando.ComandoCura('Salvaguardia', escudo=1, descripcion='Aplicacion de escudo a un jugador'))
+lista_comandos.append(comando.ComandoTransformacion('Promocion de clase: Cambio a Taumaturgo', 'Taumaturgo',descripcion='Cambio a clase taumaturgo en la que aguantaras el dano como un tanque y te curaras como un sanador, y todos los ataques aplicaran desproteccion, derribar y aturdir en un mismo turno'))
+lista_comandos.append(comando.ComandoTransformacion('Promocion de clase: Cambio a Guardian', 'Guardian',descripcion='Cambio a clase guardian en la que recibiras menos daño (además de curarte) cuando te ataquen pero perderas vida al atacar'))

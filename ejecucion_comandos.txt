@@ -1,0 +1,15 @@
+0 # A no ser que alguno de los jugadores muera o esté en coma, el orden de ejecución será Shulk - Reyn - Sharla. Ataque básico de Shulk
+0 # Ataque básico de Reyn
+0 # Ataque básico de Sharla
+5 # Shulk aumenta de ataque a toda la party
+3 # Reyn aturde a los objetivos (si no se modifica, quitará el estado suertudo a los conejos)
+5 # Sharla cura a toda la party
+5 # Shulk aumenta de ataque a toda la party
+3 # Reyn aturde a los objetivos (si no se modifica, quitará el estado suertudo a los conejos)
+1 # Sharla acaba con el último conejo
+2 # Shulk desprotege a la araña 1
+2 # Reyn la derriba y muere automáticamente por estar derribada
+5 # Sharla cura a toda la party
+2 # Shulk desprotege a la araña 0
+2 # Reyn la derriba y muere automáticamente por estar derribada
+5 # Sharla cura a toda la party (los siguientes enemigos ya tienen mucho RNG así que se pasa a modo manual)

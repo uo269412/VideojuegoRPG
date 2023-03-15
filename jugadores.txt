@@ -1,0 +1,7 @@
+[personaje. \
+            Luchador('Shulk', 500, 500, 20, 0, 0),
+personaje. \
+            Tanque('Reyn', 1000, 1000, 10, 5, 0),
+
+personaje. \
+            Sanador('Sharla', 700, 700, 10, 2, 30)]

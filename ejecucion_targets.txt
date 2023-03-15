@@ -1,0 +1,7 @@
+0 # Ataque básico a conejo 0
+1 # Ataque básico a conejo 1
+0 # Ataque básico a conejo 0
+1 # Desprotección a araña 1
+1 # Derribo a araña 1
+0 # Desprotección a araña 0
+0 # Derribo a araña 0

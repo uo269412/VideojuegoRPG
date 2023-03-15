@@ -1,0 +1,1 @@
+[enemigos.Conejo('Enemigo 1'), enemigos.Conejo('Enemigo 2')]
